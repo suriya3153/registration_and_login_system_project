@@ -10,7 +10,7 @@ import pandas as pd
 csvfile=pd.read_csv("iddata.csv")
 way=input("register or login :")
 mailpattern="[a-z]+[a-z0-9]+@[a-z]+\.[a-z]+"
-password_p="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{5,16}$"
+password_p="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%\#*%?^&])[A-Za-z\d@$!%\#*%^?&]{5,16}$"
 #funtions
 def registeration():
     while 1:
